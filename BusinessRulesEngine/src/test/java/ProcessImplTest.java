@@ -1,8 +1,10 @@
+import constants.ProcessType;
 import orderprocessing.constants.ProcessType;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
+import processor.ProcessImpl;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ProcessImplTest {
