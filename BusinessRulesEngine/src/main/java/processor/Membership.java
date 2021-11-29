@@ -17,4 +17,9 @@ public class Membership {
         this.ownerName = ownerName;
     }
 
+    public void membershipPlan(String memType) {
+        System.out.println(ownerName + memebrshipMsg + memType);
+
+    }
+
 }
